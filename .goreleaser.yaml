@@ -46,3 +46,10 @@ changelog:
     exclude:
       - "^docs:"
       - "^test:"
+
+brews:
+  - name: pcu
+    homepage: https://github.com/khanakia/homebrew-pcu
+    tap:
+      owner: khanakia
+      name: homebrew-pcu
