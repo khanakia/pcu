@@ -1,6 +1,11 @@
 ## pcu (php-composer-update) 
 Updates your composer.json dependencies to their latest versions.
 
+## Installation
+```go
+go install github.com/khanakia/pcu@main
+```
+
 ## Usage
 
 ### Check the `./composer.json` file in current working directory and print the latest version information
@@ -16,7 +21,7 @@ pcu check -u
 
 ### Specify custom input and output path
 ```sh
-pcu check --file=./test/composer.json --out=./out.json
+pcu check -u --file=./test/composer.json --out=./out.json
 ```
 
 
