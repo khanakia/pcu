@@ -6,6 +6,13 @@ Updates your composer.json dependencies to their latest versions.
 go install github.com/khanakia/pcu@main
 ```
 
+### Using Homebrew
+```sh
+brew tap khanakia/pcu
+brew install pcu
+pcu --help
+```
+
 ## Usage
 
 ### Check the `./composer.json` file in current working directory and print the latest version information
